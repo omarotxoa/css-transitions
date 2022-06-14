@@ -1,0 +1,30 @@
+body {
+    background-color: #333;
+}
+
+.square {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.background-border-transition {
+    transition-property: background-color, border-radius;
+    transition-duration: 1s;
+}
+
+.background-border-transition:hover {
+    background-color: seagreen;
+    border-radius: 0 50%;
+}
+
+.rotate {
+    background-color: seagreen;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+.rotate:hover {
+    transform: rotateY(180deg);
+}
